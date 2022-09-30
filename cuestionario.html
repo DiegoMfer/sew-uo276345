@@ -1,0 +1,70 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta name="keywords" content="Bootstrap" />
+    <meta name="author" content="Diego Martín Fernández" />
+    <meta name="description"
+        content="Página web sobre Bootstrap, que es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web." />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="styles/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+      
+    </nav>
+    <section>
+        <h2>Contacto</h2>
+        <p>¿Hay alguna errata o información incorrecta? Notifícalo rellenando el formulario y lo cambiaremos cuanto
+            antes.</p>
+        <form name="Formulario">
+
+            <label for="telefono">Número de teléfono:</label>
+            <input type="number" id="telefono"><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email"><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos"><br>
+
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="nacimiento"><br>
+
+            <fieldset>
+                <legend>Selecciona una opción</legend>
+                <input type="radio" name="error_radio_button" id="ortografia" value="Falta_de_ortografía">
+                <label for="ortografia">Falta de ortografía</label><br>
+
+                <input type="radio" name="error_radio_button" id="info_incorrecta" value="Información_incorrecta">
+                <label for="info_incorrecta">Información incorrecta</label><br>
+
+                <input type="radio" name="error_radio_button" id="error_adaptabilidad" value="Error_de_adaptabilidad">
+                <label for="error_adaptabilidad">Error de adaptabilidad</label><br>
+
+                <input type="radio" name="error_radio_button" id="otro" value="Otro">
+                <label for="otro">Otro</label><br>
+
+            </fieldset>
+
+            <label for="texto">Descripción del error</label><br>
+
+            <textarea id="texto">Escriba aquí el problema</textarea>
+            <input type="submit" value="Enviar" title="Enviar el formulario">
+        </form>
+    </section>
+    <footer>
+        <p>Diego Martín Fernández</p>
+    </footer>
+
+</body>
+
+</html>
