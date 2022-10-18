@@ -4,7 +4,7 @@
 header, footer, nav {
     /*Colores*/
     background-color: rgb(17, 22, 30);
-    color: antiquewhite;
+    color: white;
  
 }
 
@@ -29,7 +29,7 @@ h1 {
 nav > a{
     font-size: 1.25em;
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
     background-color: rgb(17, 22, 30);
     
 }
@@ -45,7 +45,7 @@ nav > a:hover {
 section{
     /*Color*/
     color:black;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 /*------------------ Table ------------------*/
