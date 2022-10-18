@@ -90,7 +90,8 @@ form{
 /*-------------- Multimedia --------------*/
 /*Especificidad : 001*/
 img {
-    width: auto;
+    width: 100%;
+    max-width: 400px;
     height: auto;
 }
 
