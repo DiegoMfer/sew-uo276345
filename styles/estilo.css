@@ -18,6 +18,10 @@ body{
     background-color: rgb(75, 77, 82);
     color:black;
 }
+/*Especificidad : 001*/
+h1 {
+    color:aliceblue;
+}
 
 /* ---------------- Nav ---------------*/
 
