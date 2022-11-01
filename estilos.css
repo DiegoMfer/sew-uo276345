@@ -1,0 +1,34 @@
+/*Especificidad: 001*/
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+    color: white;
+    background-color: black;
+}
+
+/*Especificidad: 001*/
+h1 {
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+ul {
+    padding: 1.2em;
+}
+
+/*Especificidad: 001*/
+li {
+    background-color: #62689c;
+    padding: 1em;
+}
+
+/*Especificidad: 001*/
+li {
+    padding: 1em;
+    border: 0.2em solid white;
+    padding: 1em;
+}
+
+
+
+
